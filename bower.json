@@ -1,0 +1,28 @@
+{
+  "name": "idris-functors",
+  "authors": [
+    "Risto Stevcev <risto1@gmail.com>"
+  ],
+  "description": "Bifunctors and functor products, coproducts, and composition",
+  "main": "",
+  "keywords": [
+    "idris",
+    "functor",
+    "functors"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Risto-Stevcev/idris-functors",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "idris-assert": "^0.1.0"
+  },
+  "dependencies": {
+    "idris-comonad": "^0.1.1"
+  }
+}

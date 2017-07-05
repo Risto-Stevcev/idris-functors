@@ -1,0 +1,23 @@
+package idris_functors
+
+brief = "Bifunctors and functor products, coproducts, and composition"
+version = 0.1.0
+readme = ./README.md
+license = "MIT"
+author = "Risto Stevcev"
+maintainer = "Risto Stevcev"
+homepage = https://github.com/Risto-Stevcev/idris-functors
+sourceloc = https://github.com/Risto-Stevcev/idris-functors
+bugtracker = https://github.com/Risto-Stevcev/idris-functors/issues
+
+opts = "-i bower_components/idris-assert -i bower_components/idris-crayons -i bower_components/idris-comonad/"
+
+modules = Data.Bifunctor
+        , Data.Functor.Product
+        , Data.Functor.Coproduct
+        , Data.Functor.Compose
+        , Test.Functors
+
+tests = Test.Functors.main
+
+--pkgs = idris_assert, idris_crayons, idris_comonad
