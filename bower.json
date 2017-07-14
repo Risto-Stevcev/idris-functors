@@ -19,10 +19,8 @@
     "test",
     "tests"
   ],
-  "devDependencies": {
-    "idris-assert": "^0.1.0"
-  },
   "dependencies": {
+    "idris-assert": "^0.1.0",
     "idris-comonad": "^0.1.1"
   }
 }
